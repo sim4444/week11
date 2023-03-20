@@ -1,28 +1,28 @@
 //function declaration 
-function greet(name)
+function greet(name,time)
 {
-    console.log(`my name is ${name}`);
+    console.log(`Good ${time} ${name}`);
 }
 //function calling
-greet('sim');
+greet('Sim','night');
 
 
 //////////////////////////////
 
 //function expression 
 
-const greet = function(name)
-{
-    console.log(`Hello ${name}`);
-}
+// const greet = function(name)
+// {
+//     console.log(`Hello ${name}`);
+// }
 //function calling
-greet('sim');
+// greet('sim');
 
 /////////////////
 //arrow function
-const greet = (name) =>
-{
-    console.log(`Hello ${name}`);
-}
+// const greet = (name) =>
+// {
+//     console.log(`Hello ${name}`);
+// }
 //function calling
-greet('sim');
+// greet('SIM');
