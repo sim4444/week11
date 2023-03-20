@@ -1,10 +1,11 @@
 //function declaration 
-function greet(name,time)
+function greet(name,time='day',message)
 {
-    console.log(`Good ${time} ${name}`);
+    console.log(`Good ${time} ${name} ${message}`);
 }
 //function calling
-greet('Sim','night');
+greet('Sim',"you are beautiful");
+greet("Simi", "you are the best");
 
 
 //////////////////////////////
