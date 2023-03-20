@@ -17,3 +17,12 @@ const greet = function(name)
 }
 //function calling
 greet('sim');
+
+/////////////////
+//arrow function
+const greet = (name) =>
+{
+    console.log(`Hello ${name}`);
+}
+//function calling
+greet('sim');
